@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/resgitro.css">
+  
+	<title>Registro de usuario</title>
+</head>
+<body>
+  
+      <form action="/action_page.php">
+  <div class="container">
+    <h1>Resgistrese</h1>
+    <p>Por favor ingrese los datos solicitados.</p>
+    
+    <label for="nombre"><b>Nombre</b></label>
+    <input type="text" placeholder="Escriba su nombre" name="nombre" id="nombre" required>
+    
+    <label for="apellido"><b>Apellido</b></label>
+    <input type="text" placeholder="Escriba su apellido" name="apellido" id="apellido" required>
+    
+    <label for="cedula"><b>Cédula</b></label>
+    <input type="numero" placeholder="Escriba su número de cédula" name="cedula" id="cedula" required>
+    
+    <label for="empresa"><b>Empresa</b></label>
+    <input type="text" placeholder="Nombre de la empresa" name="empresa" id="empresa" required>
+
+    <label for="cedula"><b>NIT</b></label>
+    <input type="numero" placeholder="Escriba el NIT de la empresa" name="NIT" id="NIT" required>
+    
+    <label for="email"><b>Email</label>
+    
+    <input type="text" placeholder="Ingrese Email" name="email" id="email" required>
+    <label for="psw"><b>Contraseña</b></label>
+    
+    <input type="password" placeholder="Ingrese contraseña" name="psw" id="psw" required>
+    <label for="psw-repeat"><b>Repita la contraseña</b></label>
+    
+    <input type="password" placeholder="Repita la contraseña" name="psw-repeat" id="psw-repeat" required>
+    <hr><br><br>
+    <p>Al crear una cuenta, aceptas <a href="#">Terminos & privacidad</a>.</p>
+
+   <div class="modal-footer">
+        <a href="index.html"> <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Registro</button></a>
+      </div>
+</form>
+
+
+</body>
+</html>
